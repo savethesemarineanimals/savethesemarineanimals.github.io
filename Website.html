@@ -1,0 +1,405 @@
+<HTML>
+<HEAD>
+	<TITLE> Our Website </TITLE>
+	<STYLE type='text/css'>
+
+			#dolphin{
+				position: absolute;
+				width: 25%;
+				left: 74%;
+			}
+			#salmon{
+				position: absolute;
+				width: 25%;
+				height: 350px;
+				left: 74%;
+				top: 104.5%;
+			}
+			#seaturtle{
+				position: absolute;
+				width: 25%;
+				top: 104.5%;
+			}
+			#marineanimals{
+				color: #000000;
+				font-size: 120;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 24%;
+				left: 23%;
+			}
+			#introduction{
+				color: #9ABFF8;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 66%;
+				left: 37%;
+			}
+			#introduction2{
+				color: #96F4D3;
+				font-size: 35;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 81%;
+				left: 28%;
+			}
+			#abouttheauthor{
+				color: #FAB1D0;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 725%;
+				left: 40%;
+			}
+			#abouttheauthor2{
+				color: white;
+				font-size: 33;
+				font-family: Comic Sans MS;
+				font-style: regular;
+				position: absolute;
+				top: 740%;
+				left: 28%;
+			}
+			#authors{
+				position: absolute;
+				width: 50%;
+				left: -5%;
+				top: 722%;
+			}
+			#popup{
+   				width: 600px;
+    			height: 300px;
+    			background-color: lightblue;
+    			position: absolute;
+    			top:30%;
+    			left:29%;
+    			border-radius:40px;
+    			z-index:3;
+    			opacity:1;
+  			}
+			#fadebox{
+   				width:150%;
+    			height:900%;
+    			background-color:black;
+    			position:absolute;
+    			top:0%;
+    			left:-0.5%;
+    			opacity:0.5;
+  			}
+  			#xbutton{
+    			position:absolute;
+    			left:67%;
+    			top:30%;
+    			z-index:4;
+    			width:4%;
+  			}
+  			#blah{
+  				color: #000000;
+				font-size: 33;
+				font-family: 'Comic Sans MS';
+				font-style: regular;
+				position: absolute;
+				top: 43.5%;
+				left: 17%;
+  			}
+  			#sharks{
+  				color: #3FE531;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 300%;
+				left: 43%;
+  			}
+  			#sharks2{
+  				color: #31E5D2;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 315%;
+				left: 2%;
+  			}
+  			#triangle{
+  				width: 0;
+  				height: 0;
+  				border-top: 50px solid transparent;
+  				border-left: 100px solid blue;
+  				border-bottom: 50px solid transparent;
+  				position: absolute;
+  				left: 85%;
+  				top: 169%;
+  				z-index: 10;
+  			}
+  			#pictable1{
+  				width: 600px;
+  				height: 150px;
+  				position: absolute;
+  				top: 160%;
+  				left: 10%;
+  				-webkit-transition:  left 1s ease, opacity 1s ease;
+				-moz-transition: left 1s ease, opacity 1s ease;
+				-o-transition: left 1s ease, opacity 1s ease;
+				transition: left 1s ease, opacity 1s ease;
+				z-index: 9;
+  			}
+  			#shark{
+				padding: 0px 50px;
+			}
+			#salmon2{
+				padding:0px 50px;
+			}
+			#bluefin{
+				padding: 0px 50px;
+			}
+			#whale{
+				padding:0px 50px;
+			}
+			#plastic{
+				padding:0px 50px;
+			}
+			#turtles{
+				padding: 0px 50px;
+			}
+			#pictable2{
+				width:600px;
+				height:150px;
+				position: absolute;
+				top: 160%;
+				left: 170%;
+				-webkit-transition:  left 1s ease, opacity 1s ease;
+				-moz-transition: left 1s ease, opacity 1s ease;
+				-o-transition: left 1s ease, opacity 1s ease;
+				transition: left 1s ease, opacity 1s ease;
+				z-index: 9;
+			}
+			#sharkimage{
+				position: absolute;
+				z-index: 10;
+			}
+			#salmontitle{
+				color: #FF6767;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 200%;
+				left: 43%;
+			}
+			#salmonparagraph{
+				color: #EAD222;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 215%;
+				left: 2%;
+			}
+			#bluefintunatitle{
+				color: #E098FF;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 433%;
+				left: 37%;
+			}
+			#bluefintunaparagraph{
+				color: #E079BB;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 448%;
+				left: 2%;
+			}
+			#seaturtletitle{
+				color: #98FFA6;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 513%;
+				left: 38%;
+			}
+			#seaturtleparagraph{
+				color: #F9FF98;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 528%;
+				left: 2%;
+			}
+			#whalestitle{
+				color: #61F1E4;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 573%;
+				left: 40%;
+			}
+			#whalesparagraph{
+				color: #85B6F5;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 588%;
+				left: 2%;
+			}
+			#plastictitle{
+				color: #FA8F1C;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 623%;
+				left: 40%;
+			}
+			#plasticparagraph{
+				color: #FAED1C;
+				font-size: 33;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 638%;
+				left: 2%;
+			}
+			#salmongraph{
+				position: absolute;
+				width: 45%;
+				left: 27%;
+				top: 255%;
+			}
+			#sharkgraph{
+				position: absolute;
+				width: 45%;
+				left: 27%;
+				top: 388%;
+			}
+			#tunagraph{
+				position: absolute;
+				width: 45%;
+				left: 27%;
+				top: 468%;
+			}
+			#plasticgraph{
+				position: absolute;
+				width: 45%;
+				left: 27%;
+				top: 678%;
+			}
+			#bibliographytitle{
+				color: #FAB1D0;
+				font-size: 80;
+				font-family: Palatino;
+				font-style: italic;
+				position: absolute;
+				top: 793%;
+				left: 35%;
+			}
+			#bibliography{
+				color: white;
+				font-size: 20;
+				font-family: American Typewriter;
+				font-style: bold;
+				position: absolute;
+				top: 808%;
+				left: 2%;
+			}
+	</STYLE>
+<BODY bgcolor=black>
+<SCRIPT>
+	var selected=0;	
+</SCRIPT>
+<A href='#circlepics'><DIV id='triangle'
+onclick="
+
+if(selected==0)
+{
+document.getElementById('pictable2').style.left='10%';
+document.getElementById('pictable1').style.left='-110%';
+}
+else
+{
+	document.getElementById('pictable2').style.left='170%';
+	document.getElementById('pictable1').style.left='10%';
+}
+
+selected=selected+1;
+if (selected>1)
+{
+	selected=0;
+}
+return false;
+"></DIV></A>
+<TABLE border=0 id='pictable1'>
+	<TR>
+		<TH><A href='' onclick="return false;"><IMG src='salmon2.png' id='salmon2' width='220px' height='220px' onclick="window.scroll({ top: 1600, left: 0, behavior: 'smooth' });"></A></TH>
+		<TH><A href='' onclick="return false;"><IMG src='sharks.png' id='shark' width='220px' height='220px' onclick="window.scroll({ top: 2400, left: 0, behavior: 'smooth' });"></A></TH>
+		<TH><A href='' onclick="return false;"><IMG src='Bluefin Tuna.png' id='bluefin' width='220px' height='220px' onclick="window.scroll({ top: 3450, left: 0, behavior: 'smooth' });"></A></TH>
+	</TR>
+</TABLE>
+<TABLE border=0 id='pictable2'>
+	<TR>
+		<TH><A href='' onclick="return false;"><IMG src='sea turtles.png' id='turtles' width='220px' height='220px' onclick="window.scroll({ top: 4100, left: 0, behavior: 'smooth' });"></A></TH>
+		<TH><A href='' onclick="return false;"><IMG src='Whale.png' id='whale' width='220px' height='220px' onclick="window.scroll({ top: 4550, left: 0, behavior: 'smooth' });"></A></TH>
+		<TH><A href='' onclick="return false;"><IMG src='plastic.png' id=plastic width='220px' height='220px' onclick="window.scroll({ top: 5000, left: 0, behavior: 'smooth' });"></A></TH>
+	</TR>
+</TABLE>
+<A href='' onclick="return false;"><IMG id='xbutton' src='xbutton.png' onclick="document.getElementById('fadebox').style.opacity='0';document.getElementById('popup').style.opacity='0';document.getElementById('xbutton').style.opacity='0';"></A></IMG>
+<CENTER><IMG src='Ocean banner.jpg' width='100%'></IMG></CENTER>
+<BR><IMG src='shark.jpg' width='25%' id='sharkimage'></IMG>
+<IMG id='dolphin' src='dolphiin.jpg'></IMG>
+<BR><IMG id='seaturtle' src='seaturtle.jpg'></IMG>
+<A href='#salmontext'><IMG id='salmon' src='salmon.jpg' width='25%'></A></IMG>
+<FONT id='marineanimals'>Marine Animals</FONT>
+<FONT id='introduction'>Introduction</FONT>
+<FONT id='introduction2'>In this website, we are going to be <BR>talking about marine animals. The <BR>purpose of this website will be for <BR>middle school students to realise how <BR>important the situation actually is, <BR>and how big of a danger the marine <BR>animals are facing because of humans. <BR>We are going to show the reasons for <BR>why we should do our best to help <BR>these marine animals. Also to show <BR> the kind of danger that they are facing <BR> daily along with how we can help solve <BR>the problem.</FONT>
+<IMG id='authors' src='authors.png'></IMG>
+<FONT id='abouttheauthor'>About the Author</FONT>
+<FONT id='abouttheauthor2'>Natasha Chang and Phoebe Shih, the authors and editors of this website are from Kaohsiung, Taiwan. They are both seventh graders currently studying at Kaohsiung American School. Natasha’s hobbies are horse riding, sports, play video games, and playing with her cat Snowie. Phoebe’s hobbies are watching movies, reading, and  play guitar. They wish to make more websites that can help the environment in the future.
+</FONT>
+<FONT id='sharks'>Sharks</FONT>
+<FONT id='sharks2'>Sharks are one of the most endangered marine animals. And most of the reasons are coming from shark fin soup. Shark fin soup is a traditional soup or stewed dish found in Chinese cuisine and Vietnamese cuisine. Shark fin soup is often expensive, but the problem is, it is tasteless, the people eat shark fin soup for the texture of the fin. Many chinese restaurants have shark fin soup because of its cost, but to get these shark fin soup, they will have to go out to the sea to get the shark fins. They get the fins by simply capturing a small shark and cutting its fin, after that, they throw the shark without its fin right back into the ocean. The sharks that are throwbacks into the ocean won’t be able to survive without their fins to swim with. They simply stay in the ocean, until they starved to death. Some people might think that it would be fine if there wasn’t any sharks, that we can still survive without them. But the truth is, the sharks aren’t harmful to us, so why should we even bother trying to kill them. We did a survey in our school towards MS students about how many of them have ate shark fin soup before. The results were 48.3 of the people ate it before and 27.6 of the people liked it.
+We are here to try to stop the action of killing sharks for shark fin soup.</FONT>
+<IMG id='sharkgraph' src='sharkgraph.png'></IMG>
+<FONT id='salmontitle'>Salmon</FONT>
+<FONT id='salmonparagraph'>One of the greatest reason towards why salmon are endangered is because of us, humans. To us, salmon is food, they come in many different kinds ways to cook them. Many people likes to eat salmon, and because of that, the fish market often gets more money for fishing salmon. People uses big fishing nets to capture large amounts of fish, sometimes even too much that most becomes waste. This is overfishing, this is the main cause of the amount of salmon decreasing. While fishing, the broken nets stay in the bottom of the ocean harming many of the other sea creature including dolphins, sea turtles, and more. The effects of overfishing are still reversible, that is, if we act now and act strongly.</FONT>
+<IMG id='salmongraph' src='salmongraph.png'></IMG>
+<FONT id='bluefintunatitle'>Bluefin Tuna</FONT>
+<FONT id='bluefintunaparagraph'>Bluefin tuna are also endangered, because of the same reason as salmon. In Japan, a large supply of bluefin tuna is being traded. For the money, the people overfish tuna, causing bluefin tuna to be endangered. While fishermen are fishing the net might harm other sea creatures or might be left in the bottom of the ocean traping other sea animals.</FONT>
+<IMG id='tunagraph' src='tunagraph.png'></IMG>
+<FONT id='seaturtletitle'>Sea Turtles</FONT>
+<FONT id='seaturtleparagraph'>Sea turtles now are classified as endangered. Killed for their eggs, meat, skin, and shells. Sea turtles also suffer from poaching and also face habitat destruction. Sea turtles are dependent on beaches for nesting. Vehicle traffic on beaches and other human activities have directly destroyed or disturbed sea turtle nesting beaches around the world. Turtle feeding grounds such as coral reefs and seagrass beds are damaged and destroyed by activities onshore. Many sea turtles had mistaken plastic for food and people found much plastic in their stomach. After eating plastic sea turtles mistake themselves for being full and starve themselves to death. We need to reuse, recycle and most importantly reduce.</FONT>
+<FONT id='whalestitle'>Whales</FONT>
+<FONT id='whalesparagraph'>Whales are at the top of the food chain, that means they eat all fishes, and inside most fishes they eat there are plastics that eventually gets to us. Whales have an important role in the overall health of the marine environment. Unfortunately their large size does not protect them; six out of the 13 great whale species are classified as endangered, even after decades of protection. Collisions with ship, getting tangled in fishing nets gets them injured and killed. Warming ocean and loss of sea ice can affect the habitats and food of whales.</FONT>
+<FONT id='plastictitle'>Plastic</FONT>
+<FONT id='plasticparagraph'>With more than eight million tons of plastic is going into the oceans every year, it is estimated there will be more plastic than fish by 2050 and 99 percent of all the seabirds on the planet will have consumed some. We caused this mess and you might think that who cares? But the truth is whatever we throw out comes back to ourselves. As plastic harms the marine life it will harm us humans too.  We might ingest plastic that was eaten by fishes and other marine beings also in-turn causes harm to people who consume marine food. Plastic contains a lot of substances which might otherwise be hazardous. We should all act strongly towards not using plastic to make Earth a better place.</FONT>
+<FONT id='bibliographytitle'>Bibliography</FONT>
+<FONT id='bibliography'>
+<BR>- Adopt an Animal: Shark. (2018). Mote.org. Retrieved 15 May 2018, from https://mote.org/adopt/animal/shark <BR>
+<BR>- Atlantic Bluefin Tuna – Thunnus thynnus. (2018). Facts About Animals. Retrieved 15 May 2018, from http://www.facts-about.info/atlantic-bluefin-tuna/ <BR>
+<BR>- blue sky sea banner. (2018). Pngtree.com. Retrieved 15 May 2018, from https://pngtree.com/freebackground/blue-sky-sea-banner_682118.html <BR>
+<BR>- Flooding has flushed 43 billion plastic pieces out to sea. (2018). Science | AAAS. Retrieved 17 May 2018, from http://www.sciencemag.org/news/2018/03/flooding-has-flushed-43-billion-plastic-pieces-out-sea <BR>
+<BR>- Flying dolphin! #animals #dolphins #marine #wildlife #conservation #Greece #volunteer #volunteerabroad #frontiervolunteer #frontiergap. (2018). Flickr. Retrieved 15 May 2018, from https://www.flickr.com/photos/frontierofficial/16124006043 <BR>
+<BR>- Lavoie, J. (2018). Vancouver Island salmon farm accused of putting diseased fish in ocean pens. Times Colonist. Retrieved 15 May 2018, from http://www.timescolonist.com/news/local/vancouver-island-salmon-farm-accused-of-putting-diseased-fish-in-ocean-pens-1.174114 <BR>
+<BR>- Models, 3., model, A., & model, A. (2018). Atlantic Salmon | 3D model. CGTrader. Retrieved 15 May 2018, from https://www.cgtrader.com/3d-models/animals/fish/atlantic-salmon <BR>
+<BR>- The Rare Beauty of Dozens of Migrating Humpback Whales. (2016). News.nationalgeographic.com. Retrieved 17 May 2018, from https://news.nationalgeographic.com/2016/11/humpback-whale-migration-pod-video/ <BR>
+<BR>- Shark fin soup facts. (2010). Stop Shark Finning. Retrieved 22 May 2018, from http://www.stopsharkfinning.net/shark-fin-soup-facts/ <BR>
+<BR>- Turtle Hospital | Animal Hospitals. (2018). Mote.org. Retrieved 15 May 2018, from https://mote.org/hospital/turtle <BR>
+<BR>- X button free vector icons designed by Alfredo Hernandez. (2018). Flaticon. Retrieved 18 May 2018, from https://www.flaticon.com/free-icon/x-button_45859 <BR>
+</FONT>
+<IMG id='plasticgraph' src='plasticgraph.png'></IMG>
+<DIV id='popup' >
+<center><FONT id='blah' size=20>PLEASE USE FULL SCREEN</FONT></DIV>
+<DIV id='fadebox'></DIV>
+</BODY>
+</HTML>
